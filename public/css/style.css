@@ -1,0 +1,9 @@
+:root {
+}
+
+body {
+  padding: 0px;
+  min-width: 360px;
+  max-width: 750px;
+  margin: 0 auto !important;
+}
