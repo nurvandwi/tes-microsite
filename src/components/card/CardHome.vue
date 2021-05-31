@@ -6,28 +6,8 @@
         :subtitle="'Tekan tombol dibawah ini untuk lihat detail penjualan lainnya'"
       />
       <CardPeriode />
-      <div class="mt-3">
-        <b-button-group size="sm">
-          <b-button
-            ><b-img fluid :src="require('../../assets/wilayah_icon.svg')">
-            </b-img
-          ></b-button>
-          <b-button
-            ><b-img fluid :src="require('../../assets/region.svg')"> </b-img
-          ></b-button>
-          <b-button
-            ><b-img fluid :src="require('../../assets/area_icon.svg')"> </b-img
-          ></b-button>
-          <b-button
-            ><b-img fluid :src="require('../../assets/distributor_icon.svg')">
-            </b-img
-          ></b-button>
-          <b-button
-            ><b-img fluid :src="require('../../assets/outlet_icon.svg')">
-            </b-img
-          ></b-button>
-        </b-button-group>
-      </div>
+      <ButtonGroup />
+      <Table />
     </b-card>
   </div>
 </template>
@@ -36,11 +16,15 @@
 import TheTitle from "../title/TheTitle";
 import TheSubtitle from "../subtitle/TheSubtitle";
 import CardPeriode from "../card/CardPeriode";
+import ButtonGroup from "../button/ButtonGroup";
+import Table from "../table/Table";
 export default {
   components: {
     TheTitle,
     TheSubtitle,
     CardPeriode,
+    ButtonGroup,
+    Table,
   },
 };
 </script>
