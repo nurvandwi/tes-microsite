@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="d-flex align-self-center position_header">
-      <div class="d-flex flex-column align-items-center my-auto mx-auto">
-        <!-- <b-img :src="require('../../assets/jumbotron.png')"> </b-img> -->
+      <div class="d-flex flex-column align-items-center mb-auto mx-auto">
+        <b-img fluid :src="require('../../assets/mvg.svg')"> </b-img>
         <h3 class="font-yellow mt-responsive font18-mobile2">Loyalti progam</h3>
         <div class="back-yellow rounded-theme mb-3">
           <h4 class="px-3 my-0 py-2 px-5 text-white font16-mobile2">
@@ -49,7 +49,7 @@ export default {
     left: 0;
   }
   .mt-responsive {
-    margin-top: 0.5rem !important;
+    margin-top: 0rem !important;
   }
 
   .w-image {
