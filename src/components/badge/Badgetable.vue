@@ -1,58 +1,107 @@
 <template>
   <div>
-    <b-row class="text-center">
-      <b-col>
-        <h2 class="font12 m-0 text-gray border_jumlah">
-          <b-img height="25" :src="require('../../assets/trophy.png')"> </b-img>
+    <b-container class="p-0">
+      <b-row class="mb-3">
+        <b-col cols="6" class="border_jumlah d-flex">
+          <b-img
+            height="25"
+            class="align-self-center p-0"
+            :src="require('../../assets/vs-icon.png')"
+          >
+          </b-img>
+          <p class="font12 m-0 p-1 align-self-center">Pencapaian</p>
+          <p class="font12 m-0 p-0 align-self-center">123,80%</p>
+        </b-col>
+        <b-col cols="6" class="p-3 border_jumlah d-flex">
+          <b-img
+            height="25"
+            class="align-self-center p-0"
+            :src="require('../../assets/vs-icon.png')"
+          >
+          </b-img>
+          <p class="font12 m-0 p-1 align-self-center">Pencapaian</p>
+          <p class="font12 m-0 p-0 align-self-center">123,80%</p>
+        </b-col>
+      </b-row>
+      <b-row class="mb-3">
+        <b-col cols="6" class="border_jumlah d-flex">
+          <b-img
+            height="25"
+            class="align-self-center p-0"
+            :src="require('../../assets/vs-icon.png')"
+          >
+          </b-img>
+          <p class="font12 m-0 p-1 align-self-center">Pencapaian</p>
+          <p class="font12 m-0 p-0 align-self-center">123,80%</p>
+        </b-col>
+        <b-col cols="6" class="p-3 border_jumlah d-flex">
+          <b-img
+            height="25"
+            class="align-self-center p-0"
+            :src="require('../../assets/vs-icon.png')"
+          >
+          </b-img>
+          <p class="font12 m-0 p-1 align-self-center">Pencapaian</p>
+          <p class="font12 m-0 p-0 align-self-center">123,80%</p>
+        </b-col>
+      </b-row>
+      <b-row class="mb-3">
+        <b-col cols="6" class="border_jumlah d-flex">
+          <b-img
+            height="25"
+            class="align-self-center p-0"
+            :src="require('../../assets/vs-icon.png')"
+          >
+          </b-img>
+          <p class="font12 m-0 p-1 align-self-center">Pencapaian</p>
+          <p class="font12 m-0 p-0 align-self-center">123,80%</p>
+        </b-col>
+        <b-col cols="6" class="p-3 border_jumlah d-flex">
+          <b-img
+            height="25"
+            class="align-self-center p-0"
+            :src="require('../../assets/vs-icon.png')"
+          >
+          </b-img>
+          <p class="font12 m-0 p-1 align-self-center">Pencapaian</p>
+          <p class="font12 m-0 p-0 align-self-center">123,80%</p>
+        </b-col>
+      </b-row>
+    </b-container>
+    <!-- <div class="text-center d-flex">
+      <div
+        class="font12 m-0 text-gray d-flex border_jumlah w-50"
+        style="white-space: pre"
+      >
+        <b-img
+          height="25"
+          class="align-self-center"
+          :src="require('../../assets/vs-icon.png')"
+        >
+        </b-img>
+
+        <p class="text-dark font-weight-bold px-0 align-self-center">
           Pencapaian
-          <span class="rounded text-dark font-weight-bold">129,20%</span>
-        </h2>
-      </b-col>
-      <b-col style="white-space: pre">
-        <div class="font12 m-0 text-gray border_jumlah">
-          <b-img height="25" :src="require('../../assets/vs-icon.png')">
-          </b-img>
+        </p>
+        <p class="text-dark font-weight-bold align-self-center p-0">188,87%</p>
+      </div>
+      <div
+        class="font12 m-0 text-gray d-flex border_jumlah w-50"
+        style="white-space: pre"
+      >
+        <b-img
+          height="25"
+          class="align-self-center"
+          :src="require('../../assets/vs-icon.png')"
+        >
+        </b-img>
+
+        <p class="text-dark font-weight-bold px-0 align-self-center">
           AO vs RO
-          <span class="rounded text-dark font-weight-bold"> 88,87%</span>
-        </div>
-      </b-col>
-    </b-row>
-    <b-row class="text-center my-3">
-      <b-col>
-        <h2 class="font12 m-0 text-gray border_jumlah">
-          <b-img height="25" :src="require('../../assets/check-icon.png')">
-          </b-img>
-          Registrasi
-          <span class="rounded text-dark font-weight-bold"> 7500</span>
-        </h2>
-      </b-col>
-      <b-col>
-        <h2 class="font12 m-0 text-gray border_jumlah">
-          <b-img height="25" :src="require('../../assets/cross-icon.png')">
-          </b-img>
-          Registrasi
-          <span class="rounded text-dark font-weight-bold"> 2500</span>
-        </h2>
-      </b-col>
-    </b-row>
-    <b-row class="text-center my-3">
-      <b-col>
-        <h2 class="font12 m-0 text-gray border_jumlah">
-          <b-img height="25" :src="require('../../assets/outlet-icon.png')">
-          </b-img>
-          Total Outlet
-          <span class="rounded text-dark font-weight-bold"> 10000</span>
-        </h2>
-      </b-col>
-      <b-col>
-        <h2 class="font12 m-0 text-gray border_jumlah">
-          <b-img height="25" :src="require('../../assets/loader-icon.png')">
-          </b-img>
-          Progress
-          <span class="rounded text-dark font-weight-bold"> 75,00%</span>
-        </h2>
-      </b-col>
-    </b-row>
+        </p>
+        <p class="text-dark font-weight-bold align-self-center p-0">88,87%</p>
+      </div>
+    </div> -->
   </div>
 </template>
 
